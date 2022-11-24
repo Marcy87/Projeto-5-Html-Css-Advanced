@@ -1,0 +1,169 @@
+*
+    font-family: "Josefin Sans"
+    padding: 0
+    margin: 0
+    box-sizing: border-box
+
+@import _variable
+
+
+@media screen and (min-width: 420px)
+
+    @mixin container
+        max-width: $container-width
+        padding: 1.5rem 0
+        margin: auto
+
+    @mixin flex-aline
+        display: flex
+        align-items: center
+        justify-content: center
+
+    @mixin flex-center
+        display: inline-flex
+        align-items: center
+        justify-content: center
+
+    @mixin imgIronman($img)
+        background-image: url('../img/#{$img}')
+        background-position: center
+        background-repeat: no-repeat
+        background-attachment: fixed
+        background-size: cover
+        min-height: 100vh
+        display: flex
+        align-items: center
+
+    //Primeiro bloco Imagem Iron Man
+    #container1
+        @include imgIronman('ironman1.jpg')
+
+    .paragrafo
+        color: $primary-color
+        text-align: right
+        margin: 0 3% 0 40%
+        font-size: 1.2rem
+
+    //Segundo bloco Imagens Marks
+    .marks
+        @include flex-aline
+        @include container
+        flex-wrap: wrap
+        justify-content: space-between
+        @include imgIronman('Mark3.jpg')
+
+        &-blocos
+            width: 100% !important
+            height: 1050px
+            display: grid
+            grid-template-columns: repeat(1, 1fr)
+            align-items: center
+            justify-content: center
+            width: $container-width
+            flex-wrap: wrap
+            justify-content: space-between
+            color: $primary-color
+            margin-top: 50px
+
+    .mark
+        background-color: transparent !important
+
+    img
+        border-radius: 50%
+        @include flex-aline
+        @include container
+
+    .parag
+        font-size: 1.5rem
+        text-align: left
+
+    .paragMark
+        padding: 5%
+
+    footer
+        text-align: center
+        font-size: 1.2rem
+        background: $bg-color
+        color: $primary-color
+        padding: 2%
+
+
+
+@media screen and (min-width: 820px)
+    @mixin container
+        max-width: $container-width
+        padding: 1.5rem 0
+        margin: auto
+
+    @mixin flex-aline
+        display: flex
+        align-items: center
+        justify-content: center
+
+    @mixin flex-center
+        display: inline-flex
+        align-items: center
+        justify-content: center
+
+    @mixin imgIronman($img)
+        background-image: url('../img/#{$img}')
+        background-position: center
+        background-repeat: no-repeat
+        background-attachment: fixed
+        background-size: cover
+        min-height: 100vh
+        display: flex
+        align-items: center
+
+    //Primeiro bloco Imagem Iron Man
+    #container1
+        @include imgIronman('ironman.jpg')
+
+    .paragrafo
+        color: $primary-color
+        text-align: right
+        margin: 0 3% 0 40%
+        font-size: 1.2rem
+
+    //Segundo bloco Imagens Marks
+    .marks
+        @include flex-aline
+        @include container
+        flex-wrap: wrap
+        justify-content: space-between
+        @include imgIronman('Mark3.jpg')
+
+        &-blocos
+            width: 100% !important
+            height: 700px
+            display: grid
+            grid-template-columns: repeat(2, 1fr)
+            align-items: center
+            justify-content: center
+            width: $container-width
+            flex-wrap: wrap
+            justify-content: space-between
+            flex-direction: column
+            color: $primary-color
+
+    .mark
+        background-color: transparent !important
+
+    img
+        border-radius: 50%
+        @include flex-aline
+        @include container
+
+    .parag
+        font-size: 1.5rem
+        text-align: left
+
+    .paragMark
+        padding: 5%
+
+    footer
+        text-align: center
+        font-size: 1.2rem
+        background: $bg-color
+        color: $primary-color
+        padding: 2%

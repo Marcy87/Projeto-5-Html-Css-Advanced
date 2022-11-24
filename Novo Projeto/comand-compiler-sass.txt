@@ -1,0 +1,5 @@
+ === comando sssas compiler ====
+ 
+ sass --watch scss/estilo.scss:css/estilo.css
+ 
+ sass --watch scss/new.sass:css/new.css

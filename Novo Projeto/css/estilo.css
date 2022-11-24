@@ -1,0 +1,152 @@
+* {
+  font-family: "Josefin Sans";
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+@media screen and (min-width: 420px) {
+  #container1 {
+    background-image: url("../img/ironman1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center; }
+
+  .paragrafo {
+    color: white;
+    text-align: right;
+    margin: 0 3% 0 40%;
+    font-size: 1.2rem; }
+
+  .marks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1920px;
+    padding: 1.5rem 0;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-image: url("../img/Mark3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center; }
+    .marks-blocos {
+      width: 100% !important;
+      height: 1050px;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      align-items: center;
+      justify-content: center;
+      width: 1920px;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      color: white;
+      margin-top: 50px; }
+
+  .mark {
+    background-color: transparent !important; }
+
+  img {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1920px;
+    padding: 1.5rem 0;
+    margin: auto; }
+
+  .parag {
+    font-size: 1.5rem;
+    text-align: left; }
+
+  .paragMark {
+    padding: 5%; }
+
+  footer {
+    text-align: center;
+    font-size: 1.2rem;
+    background: black;
+    color: white;
+    padding: 2%; } }
+@media screen and (min-width: 820px) {
+  #container1 {
+    background-image: url("../img/ironman.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center; }
+
+  .paragrafo {
+    color: white;
+    text-align: right;
+    margin: 0 3% 0 40%;
+    font-size: 1.2rem; }
+
+  .marks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1920px;
+    padding: 1.5rem 0;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-image: url("../img/Mark3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center; }
+    .marks-blocos {
+      width: 100% !important;
+      height: 700px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
+      justify-content: center;
+      width: 1920px;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      flex-direction: column;
+      color: white; }
+
+  .mark {
+    background-color: transparent !important; }
+
+  img {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1920px;
+    padding: 1.5rem 0;
+    margin: auto; }
+
+  .parag {
+    font-size: 1.5rem;
+    text-align: left; }
+
+  .paragMark {
+    padding: 5%; }
+
+  footer {
+    text-align: center;
+    font-size: 1.2rem;
+    background: black;
+    color: white;
+    padding: 2%; } }
+
+/*# sourceMappingURL=estilo.css.map */
